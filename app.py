@@ -14,7 +14,7 @@ def detect_objects(frame, cascade, color, object_name, counters):
 
 def main():
     # Use an absolute path for the video file
-    video_path = '/home/daniel-amas/objectdetection/videoplayback.mp4'
+    video_path = 'videoplayback.mp4'
     cap = cv2.VideoCapture(video_path)
 
     if not cap.isOpened():
